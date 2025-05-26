@@ -31,3 +31,11 @@ Performance:
 Achieves high throughput with optimized pipeline stages and efficient resource usage. Timing closure verified for frequencies up to 200MHz on mid-range Xilinx devices.
 
 This implementation serves as a foundation for building larger neural network accelerators and can be easily integrated into existing FPGA-based AI systems.
+
+
+Procedures to run project -
+1. Open Vivado 2022
+2. Upload design files - N_N_P_E.v and Systolic_array.v
+3. Upload constraint file - constraints.xdc
+4. Upload testbench - TB.v
+5. Run Behavioral simulation along with synthesis and Implementation.
